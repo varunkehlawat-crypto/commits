@@ -24,8 +24,8 @@ jobs:
           
       - name: Commit and Push
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Varun Kehlawat"
+          git config --global user.email "varunkehlawat@gmail.com"
           git add commit_history.txt
           git commit -m "Automated daily update"
           git push
